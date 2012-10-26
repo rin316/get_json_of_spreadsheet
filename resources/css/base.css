@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+html, body {
+	background-color: #FFFFFF;
+	color: #333333;
+	font-family: 'Source Code Pro', sans-serif;
+}
+
+body {
+}
+
+
+a {
+	color: #1f1f99;
+	text-decoration: underline;
+}
+
+a:link    {}
+a:visited {}
+a:hover   {
+	color: #1f1f99;
+	text-decoration: none;
+}
+a:active  {}
+
+hr {
+	margin: 30px 0;
+	border: solid #D264B7;
+	border-width: 0px 0px 1px;
+}
+
+
+/*--header--*/
+.header {
+}
+
+	.header h1 {
+		margin: 15px 0px 20px;
+		font-size: 50px;
+		line-height: 50px;
+	}
+
+.section {
+	margin: 0px 0px 10px;
+	padding: 10px;
+	border: 8px solid #ccc;
+}
+
+.question {
+	color: blue;
+}
+
+.answer {
+	color: red;
+}
